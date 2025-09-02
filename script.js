@@ -21,18 +21,6 @@ async function fetchCharacter(name) {
   }
 }
 
-async function fetchRandomCharacter() {
-  result.innerHTML = "⏳ Loading...";
-  try {
-    const randomId = Math.floor(Math.random() * 7439) + 1; // Total characters in API
-    const response = await fetch(`https://api.disneyapi.dev/character/${randomId}`);
-    const data = await response.json();
-    displayCharacter(data);
-  } catch (error) {
-    result.innerHTML = "❌ Error fetching random character.";
-    console.error(error);
-  }
-}
 
 function displayCharacter(char) {
   result.innerHTML = `
@@ -51,3 +39,4 @@ searchBtn.addEventListener("click", () => {
 });
 
 randomBtn.addEventListener("click", fetchRandomCharacter);
+
