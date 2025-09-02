@@ -13,7 +13,7 @@ Search and discover your favorite Disney characters, films, and shows — or get
 ---
 
 ## 🚀 Live Demo  
-👉 [Check it live here](https://aishi1528.github.io/disney-character-finder/)  
+👉 [Check it live here](https://aishi1528.github.io/Disney-Character-Finder/)  
 
 ---
 
